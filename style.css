@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-size: 52%;
+}
+
+main h1, .logo {
+    font-family: 'Jockey One', sans-serif;
+}
+.info {
+    right: 12rem;
+    top: 8rem;
+}
