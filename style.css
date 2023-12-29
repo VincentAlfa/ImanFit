@@ -4,11 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-
-body {
-    background-size: 52%;
+    font-family: 'Poppins', sans-serif;
 }
 
 main h1, .logo {
