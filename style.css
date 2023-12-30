@@ -1,17 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-
-main h1, .logo {
-    font-family: 'Jockey One', sans-serif;
+main h1,
+.logo {
+  font-family: "Jockey One", sans-serif;
 }
 .info {
-    right: 12rem;
-    top: 8rem;
+  right: 12rem;
+  top: 8rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 1536px) {
+  /* coba coba */
 }
