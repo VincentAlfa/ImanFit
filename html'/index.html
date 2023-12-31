@@ -8,6 +8,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +21,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Islam in my heart</title>
   </head>
+
   <body class="bg-[#add8e6]">
     <nav>
       <div
@@ -102,7 +107,7 @@
       <img
         src="../img/bagiankiri.svg"
         alt=""
-        class="absolute left-0 bottom-0 -z-50 "
+        class="absolute left-0 bottom-0 -z-50"
       />
       <img
         src="../img/otakbarubanget.svg"
@@ -159,19 +164,19 @@
       <img src="../img/gear.svg" alt="" class="absolute top-6 right-0 -z-50" />
       <!-- Card Glass -->
       <div
-        class="h-[65%] w-[90%] bg-gray-400 rounded-bl-3xl rounded-tr-3xl shadow-[0px_15px_20px_10px_#00000024] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 flex justify-between"
+        class="h-[50%] w-[90%] bg-gray-400 rounded-bl-3xl rounded-tr-3xl shadow-[0px_15px_20px_10px_#00000024] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 flex justify-between"
       >
         <!-- Bagian Kiri -->
-        <div class="kiri p-10 w-[35%]">
+        <div class="kiri p-10 w-[35%] flex flex-col justify-center">
           <p class="text-7xl text-[#001062] font-semibold">ImanFit</p>
-          <p class="mt-6 text-gray-300">
+          <p class="mt-6 text-white">
             "Dari Abu Hurairah, Rasulullah Shallallahu 'alaihi wa sallam
             bersabda, 'Allah tidak menurunkan suatu penyakit kecuali menurunkan
             obatnya juga. Maka, apabila kamu mengetahui obatnya, berikanlah obat
             tersebut, dan janganlah kamu menyembuhkan penyakit dengan yang
             haram."
           </p>
-          <p class="mt-5">(H.R ad-Darimi dan al-Baihaqi)</p>
+          <p class="mt-5 text-white">(H.R ad-Darimi dan al-Baihaqi)</p>
         </div>
         <!-- Bagian Kiri end -->
         <!-- Bagian Kanan  -->
@@ -324,7 +329,10 @@
     <!-- About End -->
 
     <!-- Contact -->
-    <section id="contact" class="relative h-screen">
+    <section
+      id="contact"
+      class="relative h-screen flex flex-col items-center justify-center"
+    >
       <img
         src="../img/kiriContact.svg"
         alt=""
@@ -335,6 +343,49 @@
         alt=""
         class="absolute right-0 top-0 -z-50"
       />
+      <h1 class="text-5xl text-[#001062] font-semibold">CONTACT US</h1>
+      <form action="" class="flex flex-col items-end">
+        <div
+          class="name relative flex items-center text-gray-400 focus-within:text-[#001062]"
+        >
+          <i
+            class="ri-user-3-line absolute ml-3 mt-3 pointer-events-none text-[2rem]"
+          ></i>
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-[37rem] mt-4 pl-14 rounded-md border-0 shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]"
+          />
+        </div>
+        <div
+          class="subject relative flex items-center text-gray-400 focus-within:text-[#001062]"
+        >
+          <i
+            class="ri-mail-fill absolute ml-3 mt-3 pointer-events-none text-[2rem]"
+          ></i>
+          <input
+            type="text"
+            placeholder="Your Subject"
+            class="w-[37rem] mt-4 pl-14 rounded-md border-0 shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]"
+          />
+        </div>
+        <div class="message text-gray-400 focus-within:text-[#001062]">
+          <i
+            class="ri-chat-4-line absolute ml-3 mt-4 pointer-events-none text-[2rem]"
+          ></i>
+          <textarea
+            placeholder="Your Message"
+            class="w-[37rem] min-h-64 mt-4 pl-14 pt-3 rounded-md border-0 shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]"
+          ></textarea>
+        </div>
+        <a href=""
+          ><button
+            class="text-white bg-gradient-to-r from-indigo-900 to-blue-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base text-center w-36 h-10 mt-3"
+          >
+            Send
+          </button></a
+        >
+      </form>
     </section>
     <!-- Contact End -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
