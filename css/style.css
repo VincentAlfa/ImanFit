@@ -35,7 +35,23 @@ body::-webkit-scrollbar {
   width: 50%;
 }
 
-
+@media only screen and (min-width: 1539px) {
+ .kananimg img{
+  height: 30rem;
+ }
+  .kiriimg img{
+  height: 60rem;
+ }
+ .tulisan{
+  margin: 8rem;
+ }
+ .tulisan .lorem{
+  font-size: 4rem;
+ }
+ .otak img{
+  height: 45rem;
+ }
+}
 
 @media only screen and (min-width: 1536px) {
   /* coba coba */
