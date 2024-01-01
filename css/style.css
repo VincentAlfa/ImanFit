@@ -35,12 +35,24 @@ body::-webkit-scrollbar {
   width: 50%;
 }
 
-@media only screen and (min-width: 1539px) {
+.tulisandua{
+  color: red;
+ }
+
+ .tulisanduadua{
+  color: aqua;
+ }
+
+ .tulisanduatiga{
+  color: brown;
+ }
+
+@media only screen and (min-width: 1539px) { 
+ .kiriimg img{
+  height: 60rem;
+ }
  .kananimg img{
   height: 30rem;
- }
-  .kiriimg img{
-  height: 60rem;
  }
  .tulisan{
   margin: 8rem;
@@ -51,7 +63,15 @@ body::-webkit-scrollbar {
  .otak img{
   height: 45rem;
  }
-}
+
+ 
+
+ .kirihelp img{
+  height: 52rem;
+ } 
+
+ 
+ }
 
 @media only screen and (min-width: 1536px) {
   /* coba coba */
