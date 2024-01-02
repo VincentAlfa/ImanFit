@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css"
       rel="stylesheet"
@@ -24,13 +25,9 @@
 
   <body class="bg-[#add8e6]">
     <nav>
-      <div
-        class="flex flex-wrap items-center justify-between mx-auto p-9 lg:px-0 lg:mx-10"
-      >
+      <div class="flex flex-wrap items-center justify-between mx-auto p-9 lg:px-0 lg:mx-10">
         <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <span class="logo self-center text-6xl whitespace-nowrap text-white"
-            >ImanFit</span
-          >
+          <span class="logo self-center text-6xl whitespace-nowrap text-white">ImanFit</span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -71,7 +68,7 @@
             <li>
               <a
                 href="#latsHelpPage"
-                class="block py-2 px-3 text-white hover:text-indigo-900 md:bg-transparent md:text-black md:hover:text-indigo-900 md:p-0 "
+                class="block py-2 px-3 text-white hover:text-indigo-900 md:bg-transparent md:text-black md:hover:text-indigo-900 md:p-0"
                 aria-current="page"
                 >Let's Help</a
               >
@@ -100,33 +97,25 @@
     <!-- Home -->
     <section id="homePage" class="relative h-screen">
       <div class="kananimg">
-        <img
-          src="../img/kananlagi.svg"
-          alt=""
-          class="absolute right-0 top-0 -z-50 h-80"
-        />
+        <img src="../img/kananlagi.svg" alt="" class="absolute right-0 top-0 -z-50 h-80" />
       </div>
       <div class="kiriimg">
-        <img
-          src="../img/bagiankiri.svg"
-          alt=""
-          class="absolute left-0 bottom-0 -z-50 "
-        />
+        <img src="../img/bagiankiri.svg" alt="" class="absolute left-0 bottom-0 -z-50" />
       </div>
       <div class="otak">
         <img
           src="../img/otakbarubanget.svg"
           alt=""
-          class="absolute left-3 bottom-0 -z-0 h-[36rem] "
+          class="absolute left-3 bottom-0 -z-0 h-[36rem]"
         />
       </div>
       <div class="text absolute right-80 w-96 top-40 tulisan">
-        <p class="text-[3.7rem] font-bold lorem ">ImanFit</p>
+        <p class="text-[3.7rem] font-bold lorem">ImanFit</p>
         <p class="mt-6 w-[32rem] text-lg text-justify">
-          "Dari Abu Hurairah, Rasulullah Shallallahu 'alaihi wa sallam bersabda,
-          'Allah tidak menurunkan suatu penyakit kecuali menurunkan obatnya
-          juga. Maka, apabila kamu mengetahui obatnya, berikanlah obat tersebut,
-          dan janganlah kamu menyembuhkan penyakit dengan yang haram."
+          "Dari Abu Hurairah, Rasulullah Shallallahu 'alaihi wa sallam bersabda, 'Allah tidak
+          menurunkan suatu penyakit kecuali menurunkan obatnya juga. Maka, apabila kamu mengetahui
+          obatnya, berikanlah obat tersebut, dan janganlah kamu menyembuhkan penyakit dengan yang
+          haram."
         </p>
         <p class="mt-5">(H.R ad-Darimi dan al-Baihaqi)</p>
         <a href="https://www.facebook.com/joangjo.angjo">
@@ -153,35 +142,23 @@
     <!-- Home End -->
 
     <!-- Help -->
-    <section
-      id="latsHelpPage"
-      class="relative h-screen flex justify-center items-center"
-    >
-    <div class="kirihelp">
-      <img
-        src="../img/kirihelp.svg"
-        alt=""
-        class="absolute -top-1 left-0 -z-50"
-      />
-    </div>
-      <img
-        src="../img/kananhelp.svg"
-        alt=""
-        class="absolute bottom-0 right-0 -z-50"
-      />
+    <section id="latsHelpPage" class="relative h-screen flex justify-center items-center">
+      <div class="kirihelp">
+        <img src="../img/kirihelp.svg" alt="" class="absolute -top-1 left-0 -z-50" />
+      </div>
+      <img src="../img/kananhelp.svg" alt="" class="absolute bottom-0 right-0 -z-50" />
       <img src="../img/gear.svg" alt="" class="absolute top-6 right-0 -z-50" />
       <!-- Card Glass -->
       <div
-        class="h-[50%] w-[90%] bg-gray-400 rounded-bl-3xl rounded-tr-3xl shadow-[0px_15px_20px_10px_#00000024] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 flex justify-between   "
+        class="h-[50%] w-[90%] bg-gray-400 rounded-bl-3xl rounded-tr-3xl shadow-[0px_15px_20px_10px_#00000024] bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 flex justify-between"
       >
         <!-- Bagian Kiri -->
         <div class="kiri p-10 w-[35%] flex flex-col justify-center">
           <p class="text-7xl text-[#001062] font-semibold">ImanFit</p>
-          <p class="mt-6 text-white ">
-            "Dari Abu Hurairah, Rasulullah Shallallahu 'alaihi wa sallam
-            bersabda, 'Allah tidak menurunkan suatu penyakit kecuali menurunkan
-            obatnya juga. Maka, apabila kamu mengetahui obatnya, berikanlah obat
-            tersebut, dan janganlah kamu menyembuhkan penyakit dengan yang
+          <p class="mt-6 text-white">
+            "Dari Abu Hurairah, Rasulullah Shallallahu 'alaihi wa sallam bersabda, 'Allah tidak
+            menurunkan suatu penyakit kecuali menurunkan obatnya juga. Maka, apabila kamu mengetahui
+            obatnya, berikanlah obat tersebut, dan janganlah kamu menyembuhkan penyakit dengan yang
             haram."
           </p>
           <p class="mt-5 text-white">(H.R ad-Darimi dan al-Baihaqi)</p>
@@ -193,22 +170,15 @@
             class="w-[50%] h-[27rem] bg-[#003350] rounded-tl-[3rem] rounded-br-[3rem] shadow cardSakit"
           >
             <a href="#">
-              <img
-                class="rounded-full w-[70%]"
-                src="../img/sakitKepalalagi 1.svg"
-                alt=""
-              />
+              <img class="rounded-full w-[70%]" src="../img/sakitKepalalagi 1.svg" alt="" />
             </a>
             <div class="p-5">
               <a href="#">
-                <h5 class="mb-2 text-1xl font-bold tracking-tight text-white">
-                  Sakit Kepala
-                </h5>
+                <h5 class="mb-2 text-1xl font-bold tracking-tight text-white">Sakit Kepala</h5>
               </a>
               <p class="mb-3 font-normal text-sm text-white">
-                Sakit Kepala adalah panggilan untuk mencari penyembuhan dalam
-                ajaran Islam. Dengan doa, obat alami, dan petunjuk agama, kita
-                menemukan jalan menuju kesembuhan.
+                Sakit Kepala adalah panggilan untuk mencari penyembuhan dalam ajaran Islam. Dengan
+                doa, obat alami, dan petunjuk agama, kita menemukan jalan menuju kesembuhan.
               </p>
               <a
                 href="#"
@@ -241,14 +211,11 @@
             </a>
             <div class="p-5">
               <a href="#">
-                <h5 class="mb-2 text-1xl font-bold tracking-tight text-white">
-                  Demam
-                </h5>
+                <h5 class="mb-2 text-1xl font-bold tracking-tight text-white">Demam</h5>
               </a>
               <p class="mb-3 font-normal text-sm text-white">
-                Sakit Demam adalah panggilan untuk mencari penyembuhan dalam
-                ajaran Islam. Dengan doa, obat alami, dan petunjuk agama, kita
-                menemukan jalan menuju kesembuhan.
+                Sakit Demam adalah panggilan untuk mencari penyembuhan dalam ajaran Islam. Dengan
+                doa, obat alami, dan petunjuk agama, kita menemukan jalan menuju kesembuhan.
               </p>
               <a
                 href="#"
@@ -277,22 +244,15 @@
             class="w-[50%] h-[27rem] bg-[#003350] rounded-tl-[3rem] rounded-br-[3rem] shadow cardSakit"
           >
             <a href="#">
-              <img
-                class="rounded-full w-[70%]"
-                src="../img/sakitperut.svg"
-                alt=""
-              />
+              <img class="rounded-full w-[70%]" src="../img/sakitperut.svg" alt="" />
             </a>
             <div class="p-5">
               <a href="#">
-                <h5 class="mb-2 text-1xl font-bold tracking-tight text-white">
-                  Sakit Perut
-                </h5>
+                <h5 class="mb-2 text-1xl font-bold tracking-tight text-white">Sakit Perut</h5>
               </a>
               <p class="mb-3 font-normal text-sm text-white">
-                Sakit Perut adalah panggilan untuk mencari penyembuhan dalam
-                ajaran Islam. Dengan doa , obat alami, dan petunjuk agama, kita
-                menemukan jalan menuju kesembuhan.
+                Sakit Perut adalah panggilan untuk mencari penyembuhan dalam ajaran Islam. Dengan
+                doa , obat alami, dan petunjuk agama, kita menemukan jalan menuju kesembuhan.
               </p>
               <a
                 href="#"
@@ -328,61 +288,42 @@
     <section id="about" class="relative h-screen">
       <img src="../img/kananabout.svg" alt="" class="absolute right-0 top-0" />
       <img src="../img/kiriabout.svg" alt="" class="absolute left-0 bottom-0" />
-      <img
-        src="../img/kananbawahabout.svg"
-        alt=""
-        class="absolute right-0 bottom-0"
-      />
+      <img src="../img/kananbawahabout.svg" alt="" class="absolute right-0 bottom-0" />
     </section>
     <!-- About End -->
 
     <!-- Contact -->
-    <section
-      id="contact"
-      class="relative h-screen flex flex-col items-center justify-center"
-    >
-      <img
-        src="../img/kiriContact.svg"
-        alt=""
-        class="absolute left-0 bottom-0 -z-50"
-      />
-      <img
-        src="../img/kanancontact.svg"
-        alt=""
-        class="absolute right-0 top-0 -z-50"
-      />
+    <section id="contact" class="relative h-screen flex flex-col items-center justify-center">
+      <img src="../img/kiriContact.svg" alt="" class="absolute left-0 bottom-0 -z-50" />
+      <img src="../img/kanancontact.svg" alt="" class="absolute right-0 top-0 -z-50" />
       <h1 class="text-5xl text-[#001062] font-semibold">CONTACT US</h1>
-      <form action="" class="flex flex-col items-end">
-        <div
-          class="name relative flex items-center text-gray-400 focus-within:text-[#001062]"
-        >
-          <i
-            class="ri-user-3-line absolute ml-3 mt-3 pointer-events-none text-[2rem]"
-          ></i>
+      <form action="" class="flex flex-col items-end" id="form">
+        <div class="name relative flex items-center text-gray-400 focus-within:text-[#001062]">
+          <i class="ri-user-3-line absolute ml-3 mt-3 pointer-events-none text-[2rem]"></i>
           <input
-            type="text"
-            placeholder="Your Name"
+            type="email"
+            placeholder="Your email"
+            name="email"
+            id="email"
             class="w-[37rem] mt-4 pl-14 rounded-md border-0 shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]"
           />
         </div>
-        <div
-          class="subject relative flex items-center text-gray-400 focus-within:text-[#001062]"
-        >
-          <i
-            class="ri-mail-fill absolute ml-3 mt-3 pointer-events-none text-[2rem]"
-          ></i>
+        <div class="subject relative flex items-center text-gray-400 focus-within:text-[#001062]">
+          <i class="ri-mail-fill absolute ml-3 mt-3 pointer-events-none text-[2rem]"></i>
           <input
             type="text"
             placeholder="Your Subject"
+            name="subject"
+            id="subject"
             class="w-[37rem] mt-4 pl-14 rounded-md border-0 shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]"
           />
         </div>
         <div class="message text-gray-400 focus-within:text-[#001062]">
-          <i
-            class="ri-chat-4-line absolute ml-3 mt-4 pointer-events-none text-[2rem]"
-          ></i>
+          <i class="ri-chat-4-line absolute ml-3 mt-4 pointer-events-none text-[2rem]"></i>
           <textarea
             placeholder="Your Message"
+            name="message"
+            id="message"
             class="w-[37rem] min-h-64 mt-4 pl-14 pt-3 rounded-md border-0 shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]"
           ></textarea>
         </div>
@@ -396,6 +337,7 @@
       </form>
     </section>
     <!-- Contact End -->
+    <script src="../script/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
   </body>
 </html>
