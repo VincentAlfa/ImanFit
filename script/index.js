@@ -19,10 +19,4 @@ form.addEventListener('submit', (e) => {
     Body: emailBody
   }).then((message) => alert(message));
 
-  const log = {
-    From: email.value,
-    Subject: subject.value,
-    Body: message.value,
-  };
-  console.log(log);
 });
