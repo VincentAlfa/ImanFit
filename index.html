@@ -20,6 +20,35 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      tailwind.config = {
+          theme: {
+              screens: {
+    'sm': '640px',
+    // => @media (min-width: 640px) { ... }
+
+    'md': '768px',
+    // => @media (min-width: 768px) { ... }
+
+    'lg': '1024px',
+    // => @media (min-width: 1024px) { ... }
+
+    'xl': '1280px',
+    // => @media (min-width: 1280px) { ... }
+
+    '2xl': '1536px',
+    // => @media (min-width: 1536px) { ... }
+  },
+  extend: {
+    screens: {
+      '3xl': '1580px',
+    },
+}
+},
+plugins:[],
+}
+
+  </script>
     <title>Islam in my heart</title>
   </head>
 
@@ -97,10 +126,10 @@
     <!-- Home -->
     <section id="homePage" class="relative h-screen">
       <div class="kananimg">
-        <img src="./img/kananlagi.svg" alt="" class="absolute right-0 top-0 -z-50 h-80" />
+        <img src="./img/kananlagi.svg" alt="" class="absolute right-0 top-0 -z-50 3xl:h-[70rem] 2xl:h-[35rem]" />
       </div>
       <div class="kiriimg">
-        <img src="./img/bagiankiri.svg" alt="" class="absolute left-0 bottom-0 -z-50" />
+        <img src="./img/bagiankiri.svg" alt="" class="absolute left-0 bottom-0 -z-50 3xl-h[50rem] 2xl:h-[70rem]" />
       </div>
       <div class="otak">
         <img
