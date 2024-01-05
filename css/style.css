@@ -28,7 +28,6 @@ body::-webkit-scrollbar {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
-  width: 50%;
 }
 
 @media only screen and (min-width: 1539px) {
