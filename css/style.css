@@ -1,20 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
 
 main h1,
 .logo {
-  font-family: "Jockey One", sans-serif;
-}
-.info {
-  right: 12rem;
-  top: 8rem;
+  font-family: 'Jockey One', sans-serif;
 }
 
 nav {
@@ -27,7 +23,7 @@ nav {
 body::-webkit-scrollbar {
   display: none;
 }
-.cardSakit img{
+.cardSakit img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -35,44 +31,25 @@ body::-webkit-scrollbar {
   width: 50%;
 }
 
-.tulisandua{
-  color: red;
- }
+@media only screen and (min-width: 1539px) {
+  .kiriimg img {
+    height: 60rem;
+  }
+  .kananimg img {
+    height: 30rem;
+  }
+  .tulisan {
+    margin: 8rem;
+  }
+  .tulisan .lorem {
+    font-size: 4rem;
+  }
+  .otak img {
+    height: 45rem;
+  }
 
- .tulisanduadua{
-  color: aqua;
- }
-
- .tulisanduatiga{
-  color: brown;
- }
-
-@media only screen and (min-width: 1539px) { 
- .kiriimg img{
-  height: 60rem;
- }
- .kananimg img{
-  height: 30rem;
- }
- .tulisan{
-  margin: 8rem;
- }
- .tulisan .lorem{
-  font-size: 4rem;
- }
- .otak img{
-  height: 45rem;
- }
-
- 
-
- .kirihelp img{
-  height: 52rem;
- } 
-
- 
- }
-
-@media only screen and (min-width: 1536px) {
-  /* coba coba */
+  .kirihelp img {
+    height: 52rem;
+  }
 }
+
