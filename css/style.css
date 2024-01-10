@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
 main h1,
 .logo {
-  font-family: 'Jockey One', sans-serif;
+  font-family: "Jockey One", sans-serif;
 }
 
 nav {
@@ -31,9 +31,6 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (min-width: 1539px) {
-  .kiriimg img {
-    height: 60rem;
-  }
   .kananimg img {
     height: 30rem;
   }
@@ -52,3 +49,31 @@ body::-webkit-scrollbar {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .kiriimg img {
+    height: 30rem;
+    bottom: -2.5rem;
+  }
+  .kananimg img {
+    height: 15rem;
+    z-index: -100;
+  }
+  nav {
+    width: 100dvw;
+  }
+  .otak img {
+    height: 15rem;
+  }
+  .homepage {
+    width: 50%;
+  }
+  .tulisan {
+    width: 1rem;
+    left: 50%;
+  }
+  .desc,
+  .hadist {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+}
