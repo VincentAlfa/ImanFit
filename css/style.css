@@ -55,21 +55,11 @@ body::-webkit-scrollbar {
     bottom: -2.5rem;
   }
   .kananimg img {
-    height: 15rem;
+    height: 13rem;
     z-index: -100;
-  }
-  nav {
-    width: 100dvw;
   }
   .otak img {
     height: 15rem;
-  }
-  .homepage {
-    width: 50%;
-  }
-  .tulisan {
-    width: 1rem;
-    left: 50%;
   }
   .desc,
   .hadist {
