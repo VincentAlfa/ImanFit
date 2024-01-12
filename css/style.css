@@ -9,6 +9,15 @@
   min-width: 0;
 }
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
 main h1,
 .logo {
   font-family: "Jockey One", sans-serif;
@@ -47,24 +56,5 @@ body::-webkit-scrollbar {
 
   .kirihelp img {
     height: 52rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .kiriimg img {
-    height: 30rem;
-    bottom: -2.5rem;
-  }
-  .kananimg img {
-    height: 13rem;
-    z-index: -100;
-  }
-  .otak img {
-    height: 15rem;
-  }
-  .desc,
-  .hadist {
-    font-size: 0.7rem;
-    line-height: 1rem;
   }
 }
